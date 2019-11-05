@@ -1,0 +1,1192 @@
+﻿
+
+
+.grd-multi-line {
+}
+
+    .grd-multi-line .x-grid3-cell-inner, .x-grid3-hd-inner {
+        overflow: hidden;
+        padding: 3px 3px 3px 5px;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+
+.imgPerson {
+    border-width: 1px;
+    border-style: solid;
+}
+
+/*  DataView.css start */
+#images-view .x-panel-body {
+    background: white;
+    font: 11px Arial, Helvetica, sans-serif;
+}
+
+
+
+#images-view .thumb {
+    background: #dddddd;
+    padding: 3px;
+}
+
+    #images-view .thumb img {
+        height: 180px;
+        width: 140px;
+    }
+
+#images-view .thumb-wrap {
+    float: left;
+    margin: 4px;
+    margin-right: 0;
+    padding: 5px;
+}
+
+    #images-view .thumb-wrap span {
+        display: block;
+        overflow: hidden;
+        text-align: center;
+    }
+
+#images-view .x-view-over {
+    border: 1px solid #dddddd;
+    background: #efefef url(resources/images/default/grid/row-over.gif) repeat-x left top;
+    padding: 4px;
+}
+
+#images-view .x-view-selected {
+    background: #eff5fb url(images/selected.html) no-repeat right bottom;
+    border: 1px solid #99bbe8;
+    padding: 4px;
+}
+
+    #images-view .x-view-selected .thumb {
+        background: transparent;
+    }
+
+#images-view .loading-indicator {
+    font-size: 11px;
+    background-image: url('../resources/images/default/grid/loading.html');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+/*  DataView.css end */
+
+
+
+
+/* Upload Form start */
+
+.x-form-file-wrap {
+    position: relative;
+    height: 22px;
+}
+
+    .x-form-file-wrap .x-form-file {
+        position: absolute;
+        right: 0;
+        -moz-opacity: 0;
+        filter: alpha(opacity: 0);
+        opacity: 0;
+        z-index: 2;
+        height: 22px;
+    }
+
+    .x-form-file-wrap .x-form-file-btn {
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+
+    .x-form-file-wrap .x-form-file-text {
+        position: absolute;
+        left: 0;
+        z-index: 3;
+        color: #777;
+    }
+
+/* Upload Form end */
+
+
+/*  Icons.css start */
+.icon-user-new {
+    background-image: url(resources/images/icons/user_add.png) !important;
+}
+
+.icon-user-edit {
+    background-image: url(resources/images/icons/user_edit.png) !important;
+}
+
+.icon-user-lock {
+    background-image: url(resources/images/icons/lock_yellow.png) !important;
+}
+
+.icon-user-unlock {
+    background-image: url(resources/images/icons/unlock_yellow.png) !important;
+}
+
+.icon-user-password {
+    background-image: url(resources/images/icons/textfield_key.png) !important;
+}
+
+.icon-user-online {
+    background: url(resources/images/icons/bullet_ball_green.png) right no-repeat !important;
+}
+
+.icon-user-offline {
+    background: url(resources/images/icons/bullet_ball_red.png) right no-repeat !important;
+}
+
+.icon-user-information {
+    background: url(resources/images/icons/user_information.png) left no-repeat !important;
+}
+
+.icon-lock-open {
+    background-image: url(resources/images/icons/unlock_yellow.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon-single-user {
+    background-image: url(resources/images/icons/user.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon-double-user {
+    background-image: url(resources/images/icons/user_add.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon-lock {
+    background-image: url(resources/images/icons/lock_yellow.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon-copy {
+    background-image: url(resources/images/icons/copy.png) !important;
+    background-repeat: no-repeat;
+}
+
+.notif_deteile_view {
+    background-image: url(resources/images/icons/notif_deteile_view.png) !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.course_is_created {
+    background-image: url(resources/images/icons/course_is_created.png) !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.course_is_OldSemesterCreated {
+    background-image: url(resources/images/icons/delete.png) !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+
+.addStudentUserIcon {
+    background-image: url(resources/images/icons/addStudentUser.png) !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.hasDiplomaIcon {
+    background-image: url(resources/images/icons/check.png) !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.isRegisterInGroupsIcon {
+    background-image: url(resources/images/icons/isRegisterInGroups.png) !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.web_Link {
+    background-image: url(resources/images/icons/webLink.png) !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.icon_vlok {
+    background-image: url(resources/images/icons/vlok.png) !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.icon_vlnot {
+    background-image: url(resources/images/icons/vlnot.png) !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.icon_received_notifications {
+    background-image: url(resources/images/icons/received_notifications.png) !important;
+    background-repeat: no-repeat;    
+}
+
+
+.icon_send_notifications {
+    background-image: url(resources/images/icons/send_notifications.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_re_send_notification {
+    background-image: url(resources/images/icons/re_send_notification.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon-inst-stat-1 {
+    background: url(resources/images/icons/bullet_ball_glass_green.png) right no-repeat !important;
+}
+
+.icon-inst-stat-2 {
+    background: url(resources/images/icons/bullet_ball_glass_yellow.png) right no-repeat !important;
+}
+
+.icon-inst-stat-3 {
+    background: url(resources/images/icons/bullet_ball_glass_red.png) right no-repeat !important;
+}
+
+.icon-inst-stat-4 {
+    background: url(resources/images/icons/bullet_ball_glass_grey.png) right no-repeat !important;
+}
+
+.icon-eps-stat-1 {
+    background: url(resources/images/icons/bullet_ball_glass_green.png) right no-repeat !important;
+}
+
+.icon-eps-stat-2 {
+    background: url(resources/images/icons/bullet_ball_glass_grey.png) right no-repeat !important;
+}
+
+.icon-subj-stat-1 {
+    background: url(resources/images/icons/all.html) right no-repeat !important;
+}
+
+.icon-subj-stat-2 {
+    background: url(resources/images/icons/minor.html) right no-repeat !important;
+}
+
+.icon-subj-stat-3 {
+    background: url(resources/images/icons/major.html) right no-repeat !important;
+}
+
+.icon-warning {
+    background: url(resources/images/icons/sign_warning.png) left no-repeat !important;
+}
+
+.icon-check {
+    background: url(resources/images/icons/check.png) left no-repeat !important;
+}
+
+.icon-delete {
+    background: url(resources/images/icons/delete.gif) left no-repeat !important;
+}
+
+.icon-lock_yellow {
+    background: url('resources/images/icons/lock_yellow.png') no-repeat left !important;
+}
+
+.icon-unlock_yellow {
+    background: url('resources/images/icons/unlock_yellow.png') no-repeat left !important;
+}
+
+
+.icon-cancel {
+    background: url(resources/images/default/dd/drop-no.gif) left no-repeat !important;
+}
+
+.icon-search {
+    background: url(resources/images/icons/view.png) left no-repeat !important;
+}
+
+.icon-excel {
+    background: url(resources/images/icons/excel.png) no-repeat !important;
+}
+
+.icon-grid {
+    background: url(resources/images/icons/icon-grid.gif) left no-repeat !important;
+}
+
+.icon-user {
+    background: url(resources/images/icons/user.png) left no-repeat !important;
+}
+
+.icon-photo {
+    background: url(resources/images/icons/photo_landscape.png) left no-repeat !important;
+}
+
+.icon-user-new {
+    background: url(resources/images/icons/user_new.png) left no-repeat !important;
+}
+
+.icon-key {
+    background: url(resources/images/icons/key.png) left no-repeat !important;
+}
+
+.icon-clear {
+    background: url(resources/images/icons/tango-clear.html) left no-repeat !important;
+}
+
+.icon-nav-left {
+    background: url(resources/images/icons/navigate_left.png) left no-repeat !important;
+}
+
+.icon-nav-right {
+    background: url(resources/images/icons/navigate_right.png) left no-repeat !important;
+}
+
+.icon-nav-double-left {
+    background: url(resources/images/icons/navigate_left2.png) left no-repeat !important;
+}
+
+.icon-nav-double-right {
+    background: url(resources/images/icons/navigate_right2.png) left no-repeat !important;
+}
+
+.icon-load {
+    background: url(resources/images/icons/load.html) left no-repeat !important;
+}
+
+.icon-save {
+    background: url(resources/images/icons/floppy_disk.png) left no-repeat !important;
+}
+
+.icon-save-close {
+    background: url(resources/images/icons/floppy_disk_ok.png) left no-repeat !important;
+}
+
+.icon-attach {
+    background: url(resources/images/icons/paperclip.png) left no-repeat !important;
+}
+
+.icon-user-view {
+    background: url(resources/images/icons/user_view.png) left no-repeat !important;
+}
+
+.icon-refresh {
+    background: url(resources/images/icons/refresh.png) left no-repeat !important;
+}
+
+.icon-folder-green {
+    background: url(resources/images/icons/folder_green.png) no-repeat !important;
+}
+
+.icon-folder-red {
+    background: url(resources/images/icons/folder_red.png) no-repeat !important;
+}
+
+.icon-folder-edit {
+    background: url(resources/images/icons/folder_edit.png) no-repeat !important;
+}
+
+.icon-document-new {
+    background: url(resources/images/icons/document_new.png) no-repeat !important;
+}
+
+.icon-user-role {
+    background: url(resources/images/icons/users3_edit.png) no-repeat !important;
+}
+
+.icon-checkbox-check {
+    background: url(resources/images/icons/checkbox.png) no-repeat !important;
+}
+
+.icon-checkbox-uncheck {
+    background: url(resources/images/icons/checkbox_unchecked.png) no-repeat !important;
+}
+
+.icon-letter-new {
+    background: url(resources/images/icons/email_go.png) no-repeat !important;
+}
+
+.icon-letter-sent {
+    background: url(resources/images/icons/email_go.png) no-repeat !important;
+}
+
+.icon-accept-1 {
+    background: url(resources/images/icons/accept1.png) no-repeat !important;
+}
+
+.icon-accept-2 {
+    background: url(resources/images/icons/accept2.png) no-repeat !important;
+}
+
+.icon-accept-2 {
+    background: url(resources/images/icons/accept3.png) no-repeat !important;
+}
+
+.icon-checks {
+    background: url(resources/images/icons/checks.png) no-repeat !important;
+}
+
+.icon-import {
+    background: url(resources/images/icons/import2.png) no-repeat !important;
+}
+
+.icon-money {
+    background: url(resources/images/icons/money.png) no-repeat !important;
+}
+
+.icon-money_bills {
+    background: url(resources/images/icons/money_bills.png) no-repeat !important;
+}
+
+.icon-moneybag_dollar {
+    background: url(resources/images/icons/moneybag_dollar.png) no-repeat !important;
+}
+
+.icon-view {
+    background: url(resources/images/icons/view.png) no-repeat !important;
+}
+
+.icon-add {
+    background: url(resources/images/default/dd/drop-add.gif) left no-repeat !important;
+}
+
+.icon-edit {
+    background: url(resources/images/icons/application_form_edit.png) no-repeat !important;
+}
+
+.icon-detail {
+    background: url(resources/images/icons/application_form_magnify.png) no-repeat !important;
+}
+
+.icon-status {
+    background: url(resources/images/icons/application_view_list.png) no-repeat !important;
+}
+
+.icon-header {
+    background: url(resources/images/icons/application_double.png) no-repeat !important;
+}
+
+.icon-header-canceled {
+    background: url(resources/images/icons/application_double_canceled.png) no-repeat !important;
+}
+
+.icon-faculty {
+    background: url(resources/images/icons/book_open.png) no-repeat !important;
+}
+
+.icon-grad {
+    background: url(resources/images/icons/graduation_hat2.png) no-repeat !important;
+}
+
+.icon-print {
+    background: url(resources/images/icons/printer.png) no-repeat !important;
+}
+
+.icon-docs {
+    background: url(resources/images/icons/docs.png) no-repeat !important;
+}
+
+.icon-credits {
+    background: url(resources/images/icons/credits.png) no-repeat !important;
+}
+
+.icon-profile {
+    background: url(resources/images/icons/vcard.png) no-repeat !important;
+}
+
+.icon-profile-edit {
+    background: url(resources/images/icons/vcard_edit.png) no-repeat !important;
+}
+
+.icon-order {
+    background: url(resources/images/icons/order.png) no-repeat !important;
+}
+
+.icon-book {
+    background: url(resources/images/icons/book.png) no-repeat !important;
+}
+
+.icon-arrow_right_to_left {
+    background: url(resources/images/icons/arrow_right_to_left.png) no-repeat !important;
+}
+
+.icon-house {
+    background: url(resources/images/icons/house.png) no-repeat !important;
+}
+
+.icon-arrow_left_to_right {
+    background: url(resources/images/icons/arrow_left_to_right.png) no-repeat !important;
+}
+
+.icon-grant-charges {
+    background: url(resources/images/icons/calc_money.png) no-repeat !important;
+}
+
+.icon-students {
+    background: url(resources/images/icons/graduate.png) no-repeat !important;
+}
+
+.icon-institutions {
+    background: url(resources/images/icons/school.png) no-repeat !important;
+}
+
+.icon-prof-teachers {
+    background: url(resources/images/icons/teacher_blackboard.png) no-repeat !important;
+}
+
+.icon-edu-classifs {
+    background: url(resources/images/icons/text_tree.png) no-repeat !important;
+}
+
+.icon-grant-limits {
+    background: url(resources/images/icons/sort_up_minus.png) no-repeat !important;
+}
+
+.icon-proc-config {
+    background: url(resources/images/icons/gears.png) no-repeat !important;
+}
+
+.icon-mails {
+    background: url(resources/images/icons/email.png) no-repeat !important;
+}
+
+.icon-users {
+    background: url(resources/images/icons/users.png) no-repeat !important;
+}
+
+.icon-user-profile {
+    background: url(resources/images/icons/vcard.png) no-repeat !important;
+}
+
+.icon-vacant-places {
+    background: url(resources/images/icons/briefcase.png) no-repeat !important;
+}
+
+.icon-projects {
+    background: url(resources/images/icons/presentation_chart.png) no-repeat !important;
+}
+
+.icon-download {
+    background: url(resources/images/icons/download.png) no-repeat !important;
+}
+
+.icon-orders {
+    background: url(resources/images/icons/auction_hammer.png) no-repeat !important;
+}
+
+.icon-mob-perms {
+    background: url(resources/images/icons/mob_perms.png) no-repeat !important;
+}
+
+.icon-upset {
+    background: url(resources/images/icons/crying.png) no-repeat !important;
+}
+
+.icon-sched {
+    background: url(resources/images/icons/calendar_edit.png) no-repeat !important;
+}
+
+.icon-calendar {
+    background: url(resources/images/icons/date.png) no-repeat !important;
+}
+
+.icon-journal {
+    background: url(resources/images/icons/table_edit.png) no-repeat !important;
+}
+
+.icon-clone {
+    background: url(resources/images/icons/clone.png) no-repeat !important;
+}
+
+.icon-start {
+    background: url(resources/images/icons/play.png) no-repeat !important;
+}
+
+.icon-stop {
+    background: url(resources/images/icons/stop.png) no-repeat !important;
+}
+
+.icon-post {
+    background: url(resources/images/icons/post.png) no-repeat !important;
+}
+
+.dashboard-stud {
+    background: url(resources/images/graduate64.png) no-repeat !important;
+}
+
+.credit-icon {
+    background: url(resources/images/icons/credit_icon.png) no-repeat !important;
+}
+
+.creditRed-icon {
+    background: url(resources/images/icons/creditRed_icon.png) no-repeat !important;
+}
+
+.sort-asc {
+    background: url(resources/images/greytheme/grid/hmenu-asc.gif) no-repeat !important;
+}
+
+.sort-desc {
+    background: url(resources/images/greytheme/grid/hmenu-desc.gif) no-repeat !important;
+}
+
+/*  Icons.css end */
+
+/* TabGroup Panel start */
+.x-grouptabs-panel {
+    /*background-color: #4E78B1;     border: solid 15px #4E78B1;*/
+}
+
+.x-tab-panel-left .x-grouptabs-panel-header, .x-tab-panel-right .x-grouptabs-panel-header {
+    float: left;
+    border: 0;
+    background: transparent;
+}
+
+.x-tab-panel-right .x-grouptabs-panel-header {
+    float: right;
+}
+
+.x-tab-panel-left .x-grouptabs-bwrap {
+    float: right;
+    position: relative;
+}
+
+.x-tab-panel-right .x-grouptabs-bwrap {
+    float: left;
+    position: relative;
+}
+
+.x-tab-panel-left ul.x-grouptabs-strip, .x-tab-panel-right ul.x-grouptabs-strip {
+    width: auto;
+    display: block;
+}
+
+    .x-tab-panel-left ul.x-grouptabs-strip li, .x-tab-panel-right ul.x-grouptabs-strip li {
+        padding: 6px 0 2px 6px;
+        float: none;
+        margin: 0;
+        position: relative;
+        clear: both;
+    }
+
+.x-tab-panel-left .x-tab-panel-header ul.x-grouptabs-strip a.x-grouptabs-text, .x-tab-panel-right .x-tab-panel-header ul.x-grouptabs-strip a.x-grouptabs-text {
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.x-tab-panel-left .x-tab-panel-header ul.x-grouptabs-strip a.x-grouptabs-text {
+    padding-left: 20px;
+}
+
+.x-tab-panel-right .x-tab-panel-header ul.x-grouptabs-strip a.x-grouptabs-text {
+    padding-right: 18px;
+}
+
+.x-tab-panel-left .x-tab-panel-header ul.x-grouptabs-sub a.x-grouptabs-text, .x-tab-panel-right .x-tab-panel-header ul.x-grouptabs-sub a.x-grouptabs-text {
+    font-size: 12px;
+    padding: 0;
+}
+
+.x-tab-panel-left .x-tab-panel-header ul.x-grouptabs-sub a.x-grouptabs-text {
+    margin-left: 4px;
+}
+
+.x-tab-panel-right .x-tab-panel-header ul.x-grouptabs-sub a.x-grouptabs-text {
+    margin-right: 4px;
+}
+
+.x-grouptabs-panel .x-grouptabs-strip a.x-grouptabs-text {
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    color: #DFE8F6;
+    font-family: tahoma, arial, sans-serif; /*font-weight: bold;*/
+    text-decoration: none;
+}
+
+.x-tab-panel-right .x-grouptabs-strip a.x-grouptabs-text {
+    text-align: right;
+}
+
+.x-grouptabs-panel .x-grouptabs-strip-active a.x-grouptabs-text {
+    color: #395B8E;
+}
+
+.x-grouptabs-panel ul.x-grouptabs-sub a.x-grouptabs-text {
+    font-weight: normal;
+}
+
+.x-tab-joint {
+    position: absolute;
+    width: 3px;
+    top: 1px;
+    background: #fff;
+    z-index: 8999;
+}
+
+.x-grouptabs-panel .x-grouptabs-panel-body {
+    border: 1px solid #999;
+}
+
+.x-grouptabs-panel ul.x-grouptabs-strip li {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+
+    .x-grouptabs-panel ul.x-grouptabs-strip li.x-grouptabs-strip-active {
+        border: 0;
+        background: #fff;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+    }
+
+.x-tab-panel-left ul.x-grouptabs-strip li.x-grouptabs-strip-active {
+    border-left: 1px solid #999;
+}
+
+.x-tab-panel-right ul.x-grouptabs-strip li.x-grouptabs-strip-active {
+    border-right: 1px solid #999;
+}
+
+.x-grouptabs-panel li.x-grouptabs-strip-active ul.x-grouptabs-sub li.x-grouptabs-strip-active {
+    background-color: #EDEEF0;
+}
+
+.x-grouptabs-panel li.x-grouptabs-strip-active ul.x-grouptabs-sub {
+    background-color: transparent;
+}
+
+    .x-grouptabs-panel li.x-grouptabs-strip-active ul.x-grouptabs-sub li {
+        border-color: transparent;
+    }
+
+/* Tab corners */
+.x-grouptabs-panel .x-grouptabs-corner {
+    background-image: url('resources/images/x-grouptabs-corners.html');
+    display: none;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    font-size: 1px;
+    line-height: 6px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.x-grouptabs-panel .x-grouptabs-strip-active .x-grouptabs-corner {
+    display: block;
+}
+
+.x-grouptabs-panel .x-grouptabs-main.x-grouptabs-strip-active ul.x-grouptabs-sub .x-grouptabs-corner {
+    display: none;
+}
+
+.x-grouptabs-panel .x-grouptabs-corner-top-left {
+    background-position: top left;
+    left: 0;
+    top: 0;
+}
+
+.x-grouptabs-panel .x-grouptabs-corner-bottom-left {
+    background-position: bottom left;
+    left: 0;
+    bottom: 0;
+}
+
+.x-grouptabs-panel .x-grouptabs-corner-top-right {
+    background-position: top right;
+    right: 0;
+    top: 0;
+}
+
+.x-grouptabs-panel .x-grouptabs-corner-bottom-right {
+    background-position: bottom right;
+    right: 0;
+    bottom: 0;
+}
+
+.x-grouptabs-panel li.x-grouptabs-strip-active .x-grouptabs-corner-bottom-left {
+    bottom: -4px;
+    left: -4px;
+}
+
+.x-grouptabs-panel li.x-grouptabs-strip-active .x-grouptabs-corner-bottom-right {
+    bottom: -4px;
+    right: -4px;
+}
+
+.x-grouptabs-panel li.x-grouptabs-strip-active .x-grouptabs-corner-top-left {
+    top: -4px;
+    left: -4px;
+}
+
+.x-grouptabs-panel li.x-grouptabs-strip-active .x-grouptabs-corner-top-right {
+    top: -4px;
+    right: -4px;
+}
+
+.x-grouptabs-panel ul.x-grouptabs-sub li.x-tab-with-icon a.x-grouptabs-text {
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+/* General tab styling */
+.x-grouptabs-panel .x-grouptabs-expand {
+    background: transparent url('resources/images/elbow-plus-nl.html') no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 7px;
+    top: 6px;
+}
+
+.ext-ie6 .x-grouptabs-panel .x-grouptabs-expand, .ext-border-box .x-grouptabs-panel .x-grouptabs-expand {
+    left: 0;
+}
+
+.x-grouptabs-expanded .x-grouptabs-expand {
+    background-image: url('resources/images/elbow-minus-nl.html');
+}
+
+/* GroupTabs sub group styling */
+.x-grouptabs-sub {
+    display: none;
+    margin-top: 4px;
+}
+
+.x-grouptabs-expanded .x-grouptabs-sub {
+    display: block;
+}
+
+.x-grouptabs-panel ul.x-grouptabs-sub li {
+    height: 18px;
+    margin: 0 0 2px;
+    padding: 0;
+}
+
+.x-grouptabs-panel ul.x-grouptabs-sub .x-grouptabs-main-item {
+    display: none;
+}
+
+.x-tab-with-icon {
+    border-style: none !important;
+}
+/* TabGroup Panel end */
+
+/*!
+ * Ext JS Library 3.3.1
+ * Copyright(c) 2006-2010 Sencha Inc.
+ * licensing@sencha.com
+ * http://www.sencha.com/license
+ */
+.x-treegrid-root-table {
+    border-right: 1px solid;
+}
+
+.x-treegrid-root-node {
+    overflow: auto;
+}
+
+.x-treegrid-hd-hidden {
+    visibility: hidden;
+    border: 0;
+    width: 0;
+}
+
+.x-treegrid-col {
+    border-bottom: 1px solid;
+    height: 20px;
+    overflow: hidden;
+    vertical-align: top;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.x-treegrid-text {
+    padding-left: 4px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+
+.x-treegrid-resizer {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.x-treegrid-header-inner {
+    overflow: hidden;
+}
+
+.x-treegrid-root-table, .x-treegrid-col {
+    border-color: #ededed;
+}
+
+.x-treegrid-resizer {
+    border-left-color: #555;
+    border-right-color: #555;
+}
+/* TreeGrid CSS end */
+
+.item-even {
+    background-color: #EDEDED;
+}
+
+/* გრიდების rowexpanderi-შ დიზაინი */
+.row-exp {
+    color: #444444;
+    font-weight: bold;
+}
+
+/*!
+ * Ext JS Library 3.4.0
+ * Copyright(c) 2006-2011 Sencha Inc.
+ * licensing@sencha.com
+ * http://www.sencha.com/license
+ */
+.x-form-spinner-proxy {
+    /*background-color:#ff00cc;*/
+}
+
+.x-form-field-wrap .x-form-spinner-trigger {
+    background: transparent url('resources/images/spinner/spinner.gif') no-repeat 0 0;
+}
+
+.x-form-field-wrap .x-form-spinner-overup {
+    background-position: -17px 0;
+}
+
+.x-form-field-wrap .x-form-spinner-clickup {
+    background-position: -34px 0;
+}
+
+.x-form-field-wrap .x-form-spinner-overdown {
+    background-position: -51px 0;
+}
+
+.x-form-field-wrap .x-form-spinner-clickdown {
+    background-position: -68px 0;
+}
+
+
+.x-trigger-wrap-focus .x-form-spinner-trigger {
+    background-position: -85px 0;
+}
+
+.x-trigger-wrap-focus .x-form-spinner-overup {
+    background-position: -102px 0;
+}
+
+.x-trigger-wrap-focus .x-form-spinner-clickup {
+    background-position: -119px 0;
+}
+
+.x-trigger-wrap-focus .x-form-spinner-overdown {
+    background-position: -136px 0;
+}
+
+.x-trigger-wrap-focus .x-form-spinner-clickdown {
+    background-position: -153px 0;
+}
+
+.x-trigger-wrap-focus .x-form-trigger {
+    border-bottom: 1px solid #7eadd9;
+}
+
+.x-form-field-wrap .x-form-spinner-splitter {
+    line-height: 1px;
+    font-size: 1px;
+    background: transparent url('resources/images/spinner/spinner-split.gif') no-repeat 0 0;
+    position: absolute;
+    cursor: n-resize;
+}
+
+.x-trigger-wrap-focus .x-form-spinner-splitter {
+    background-position: -14px 0;
+}
+/*scheduler*/
+
+.img_helper {
+    border: none;
+}
+
+.title_helper {
+    color: #15428B;
+    font-family: tahoma,arial,verdana,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.thumb_container {
+    background: url("resources/images/alert-overlay.png") repeat-x scroll 0 0 #222222;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    background-color: #D0DEF0;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+    .thumb_container:hover {
+        background-color: #99BBE8;
+    }
+
+.corner_all {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+.row_red {
+    background-color: #FF0000;
+}
+
+.row_yellow {
+    background-color: #FFFF00;
+}
+
+
+.rowSubjectCut {
+    color: red !important;
+}
+
+.rowAnotherRecognized {
+    color: #CD8500 !important;
+}
+
+.notifNotRead {
+    font-weight: bold !important;
+}
+
+
+.pr_circle_green {
+    background: url(resources/images/icons/pr_circle_green.png) no-repeat !important;
+}
+
+.pr_circle_red {
+    background: url(resources/images/icons/pr_circle_red.png) no-repeat !important;
+}
+
+.pr_circle_yellow {
+    background: url(resources/images/icons/pr_circle_yellow.png) no-repeat !important;
+}
+
+.line_normal_begin {
+    background: url(resources/images/line_normal_begin.png) repeat-x !important;
+}
+
+#grdOrders .x-grid3-cell-inner {
+    white-space: normal;
+}
+
+.x-selectable, .x-selectable * {
+    -moz-user-select: text !important;
+    -khtml-user-select: text !important;
+}
+
+#viewTimetable .x-grid3-cell-inner {
+    white-space: normal;
+}
+
+#viewExamTimetable .x-grid3-cell-inner {
+    white-space: normal;
+}
+
+#grdSignsInputStudent .x-grid3-hd-row td {
+    padding: 0 1px 0 0;
+    border: 1px solid #bebebe;
+}
+
+#grdSignsInputStudent .x-grid3-cell {
+    border: 1px solid #bebebe;
+}
+
+#grdTestingCenterStatements.x-grid3-hd-row td {
+    padding: 0 1px 0 0;
+    border: 1px solid #bebebe;
+}
+
+#grdTestingCenterStatements .x-grid3-cell {
+    border: 1px solid #bebebe;
+}
+
+#grdSignsInputStudent .x-grid3-hd-row td {
+    padding: 0 1px 0 0;
+    border: 1px solid #bebebe;
+}
+
+#gradeList .x-grid3-hd-row td {
+    padding: 0 1px 0 0;
+    border: 1px solid #bebebe;
+}
+
+#gradeList .x-grid3-cell {
+    border: 1px solid #bebebe;
+}
+
+#gradeList .x-grid3-hd-inner {
+    padding: 2px 5px 3px;
+}
+
+#sumGradeList .x-grid3-hd-row td {
+    padding: 0 1px 0 0;
+    border: 1px solid #bebebe;
+}
+
+#sumGradeList .x-grid3-cell {
+    border: 1px solid #bebebe;
+}
+
+#sumGradeList .x-grid3-hd-inner {
+    padding: 2px 5px 3px;
+}
+
+#presenceList .x-grid3-hd-row td {
+    padding: 0 1px 0 0;
+    border: 1px solid #bebebe;
+}
+
+#presenceList .x-grid3-cell {
+    border: 1px solid #bebebe;
+}
+
+#presenceList .x-grid3-hd-inner {
+    padding: 2px 5px 3px;
+}
+
+/*for actioncolumn opacity*/
+.actionColumnOp {
+    opacity: 0.3;
+}
+
+#grdStudentDiploma .x-grid3-cell-inner {
+    white-space: normal;
+}
+
+.icon-arrow_right {
+    background-image: url(resources/images/icons/arrow_right.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-arrow_left {
+    background-image: url(resources/images/icons/arrow_left.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-arrow_rightAndLeft {
+    background-image: url(resources/images/icons/arrow_rightAndLeft.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
